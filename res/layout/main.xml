@@ -11,6 +11,7 @@
         android:text="@string/TARDIS_WELCOME_STRING"/>
 
     <ImageView
+        android:id="@+id/tardis_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/tardis_tennant"/>
