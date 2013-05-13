@@ -10,7 +10,7 @@ import android.os.Bundle;
  * Date: 5/11/13
  * Purpose:
  */
-public class InsideTardisNoFragments extends Activity
+public class InsideTardisActivity extends Activity
 {
     @Override
     public void onCreate( Bundle savedInstanceState )
@@ -21,6 +21,6 @@ public class InsideTardisNoFragments extends Activity
 
     public static Intent createIntent( Context context )
     {
-        return new Intent( context, InsideTardisNoFragments.class );
+        return new Intent( context, InsideTardisActivity.class );
     }
 }

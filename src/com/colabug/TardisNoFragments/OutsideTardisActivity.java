@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 
-public class TardisPreFragmentsActivity extends Activity
+public class OutsideTardisActivity extends Activity
 {
     @Override
     public void onCreate( Bundle savedInstanceState )
@@ -26,6 +26,6 @@ public class TardisPreFragmentsActivity extends Activity
 
     private void enterTardis()
     {
-        startActivity( InsideTardisNoFragments.createIntent( TardisPreFragmentsActivity.this ) );
+        startActivity( InsideTardisActivity.createIntent( OutsideTardisActivity.this ) );
     }
 }
