@@ -14,6 +14,6 @@
         android:id="@+id/tardis_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/tardis_tennant"/>
+        android:src="@drawable/outside_tardis"/>
 </LinearLayout>
 
