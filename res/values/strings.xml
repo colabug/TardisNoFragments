@@ -2,5 +2,4 @@
 
 <resources>
     <string name="APPLICATION_NAME">TardisNoFragments</string>
-    <string name="TARDIS_WELCOME_STRING">Hello, This is the Tardis!</string>
 </resources>
