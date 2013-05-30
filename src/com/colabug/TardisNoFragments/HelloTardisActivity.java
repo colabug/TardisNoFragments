@@ -10,7 +10,7 @@ public class HelloTardisActivity extends Activity
     public void onCreate( Bundle savedInstanceState )
     {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.hello_tardis );
+        setContentView( R.layout.outside_tardis );
 
         View tardisImage = findViewById( R.id.tardis_image );
         tardisImage.setOnClickListener( new View.OnClickListener()
