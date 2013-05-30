@@ -26,6 +26,6 @@ public class OutsideTardisActivity extends Activity
 
     private void enterTardis()
     {
-        startActivity( InsideTardisActivity.createIntent( OutsideTardisActivity.this ) );
+        startActivity( InsideTardisActivity.createIntent( this ) );
     }
 }
